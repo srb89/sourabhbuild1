@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&family=Lobster&family=Noto+Serif&family=Oswald&family=PT+Serif&family=Prosto+One&family=Rubik+Spray+Paint&family=Sacramento&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () { // check if scroll event happened
+                if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+                    $("#stick_page").css("background-color","black"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f😎
+                    
+                } else {
+                    $("#stick_page").css("background-color", "transparent"); // if not, change it back to transparent
+                   
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+               <!-- navbar -->
+
+               <div class="header">
+                <div class="menu-bar " id="stick_page">
+                  <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid ">
+          
+                      <div class="row hamPlace" >
+          
+                        <div class="col-1 resLogo">
+                          <img src="images/Claudia Paquet.png" alt="" style="width: 35px; height: 35px ; border-radius: 10px; ">
+                        </div>
+          
+                        <!-- <div class=""> -->
+                          <h5 class="col labName" style="color:white; font-weight: 600;padding-top: 5px; ">Advanced Geomonitoring And Sensing Research Lab</h5>
+                        <!-- </div> -->
+          
+                      </div>
+                      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: right;">
+                        <ul class="navbar-nav" >
+                          <li class="nav-item">
+                            <a class="nav-link  mainNavHover" aria-current="page" href="main.html" >Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link mainNavHover" href="index.html"  >About PI</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link mainNavHover" href="collaborations.html"  >Collaborations</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link mainNavHover" href="facilities.html" >Facilities</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link mainNavHover" href="news.html"  >News & Updates</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link mainNavHover" href="resPhd.html">Research Group</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link mainNavHover" href="gallery.html"  >Gallery</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+          
+                </div>
+              </div>
+          
+          
+          
+      
+      
+          <div class="bgImage">
+            <img src="images/gallery23.png" alt="Snow" style="width:100%; height: 400px; overflow: hidden; object-fit: cover;" >
+            <div class="centered" ><h1 style="font-size:4rem;">Facilities</h1></div>
+          </div>
+
+            <!-- content  -->
+
+            <div class="row mt-5" style="margin-left: 0; margin-right: 0;">
+              <div class="col-md-6 col-12">
+                <div class="card p-3 m-5 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title p-2" style="font-family: 'Abril Fatface', cursive; text-align: center; font-size:x-large;">FBG Sensing Unit</h5>
+                    <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  </div>
+                  <img class="card-img-bottom" src="images/main1.jpg" alt="Card image cap" style="height: 400px; ">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-12">
+                <div class="card p-3 m-5 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title p-2" style="font-family: 'Abril Fatface', cursive; text-align: center; font-size:x-large;">Plate Load Test</h5>
+                  </div>
+                  <img class="card-img-bottom" src="images/main12.jpg" alt="Card image cap" style="height: 400px; object-fit:cover;">
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row" style="margin-left: 0; margin-right: 0;">
+              <div class="col-md-6 col-12">
+                <div class="card p-3 m-5 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title p-2" style="font-family: 'Abril Fatface', cursive; text-align: center; font-size:x-large; ">ERT</h5>
+                  </div>
+                  <img class="card-img-bottom" src="images/main9.jpg" alt="Card image cap" style="height: 400px; object-fit: cover;">
+                </div>
+              </div>
+
+              <div class="col-md-6 col-12">
+                <div class="card p-3 m-5 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title p-2" style="font-family: 'Abril Fatface', cursive; text-align: center; font-size:x-large;">GPR</h5>
+                  </div>
+                  <img class="card-img-bottom" src="images/main10.jpg" alt="Card image cap" style="height: 400px; ">
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row" style="margin-left: 0; margin-right: 0;">
+              <div class="col-md-8 col-12">
+                <div class="card p-3 m-5 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title p-2" style="font-family: 'Abril Fatface', cursive; text-align: center; font-size:x-large; ">SPT</h5>
+                  </div>
+                  <img class="card-img-bottom" src="images/main8.jpg" alt="Card image cap" style="height: 600px; object-fit: cover;">
+                </div>
+              </div>
+
+              <div class="col-md-4 col-12">
+                <div class="card p-3 m-5 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title p-2" style="font-family: 'Abril Fatface', cursive; text-align: center; font-size:x-large;">DCPT</h5>
+                  </div>
+                  <img class="card-img-bottom" src="images/main11.jpg" alt="Card image cap" style="height: 600px; object-fit: contain ;">
+                </div>
+              </div>
+
+            </div>
+          
+  
+        
+    
+<!-- footer -->
+
+<footer class="overflow_footer">
+  <div class="footerMain">
+
+      <div class="row footerDiv" >
+
+        <div class="col-12 col-md-3" style="margin-bottom: 30px;">
+          <h4 style="color:#FAEAB1; padding-bottom: 4px;">Dr. Lalit Borana</h4>
+          <div>
+            <p style="margin-bottom: 3px; color: white; font-weight: 400;">Associate Professor</p>
+            <p style="margin-bottom: 3px; color: white; font-weight: 400;">Department of Civil Engineering,</p>
+            <p style="margin-bottom: 3px; color: white; font-weight: 400;">Indian Institute of Technology Indore</p>
+            <p style="margin-bottom: 3px; color: white; font-weight: 400;">Pod 1D-407, Chromium Building,</p>
+            <p style="margin-bottom: 3px; color: white; font-weight: 400;">Khandwa Rd, Simrol, Madhya Pradesh,</p>
+            <p style="margin-bottom: 3px; padding-bottom: 3px; color: white; font-weight: 400;">453552 -(INDIA)</p>
+            <span style="font-weight: bold; color: #b9b9b6;" >To Apply for Phd : <a href="https://www.google.com/url?q=https%3A%2F%2Facademic.iiti.ac.in%2Fphdadvt.php&sa=D&sntz=1&usg=AOvVaw0eBuPcawZ0rA-wD3HsG8r9  " class="clickHere">Click here</a></span>
+
+        </div>
+          </div>
+          <div class="col-md-7 col-12">
+
+              <h4 style="padding-bottom: 10px; color:#FAEAB1;">Contact me at:</h4>
+              <div style="padding-bottom: 15px;">
+                  <div class="row">
+
+                      <div class="col-2 col-lg-1 galaxyFold" >
+                          <img src="images/email4.png" alt="" style="width: 30px; height: 20px; ">        
+                      </div>
+                  
+                      <div class="col-7" style="padding: 0px;">
+                          <a href="mailto:lalitborana@iiti.ac.in"  class="email"><span style="color:#FAEAB1; font-weight:bold; padding-right: 2px;">Email: </span> lalitborana@iiti.ac.in</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div style="padding-bottom: 15px;">
+                <div class="row">
+
+                    <div class="col-2 col-lg-1 galaxyFold" >
+                        <img src="images/gmail_2__.png" alt="" style="width: 30px; height: 20px; ">        
+                    </div>
+                
+                    <div class="col-7" style="padding: 0px;">
+                        <a href="mailto:lalitborana@gmail.com"  class="email"><span style="color:#FAEAB1; font-weight:bold; padding-right: 2px;">Gmail: </span> lalitborana@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+
+              <div style="padding-bottom: 15px;">
+                <div class="row">
+
+                    <div class="col-2 col-lg-1 galaxyFold" >
+                        <img src="images/phone2.png" alt="" style="width: 30px; height: 25px; ">        
+                    </div>
+                
+                    <div class="col-7" style="padding: 0px;">
+                        <a href=""  class="mobile"><span style="color:#FAEAB1; font-weight:bold; padding-right: 2px;">Mobile:</span>0731-660 3286 </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container cont-3 mt-3">
+
+              <div style="padding-left: 0px;">
+                <div class="row">
+                  <div class="col-2 col-lg-1 galaxyFold">
+                    <a href="https://www.linkedin.com/in/lalit-borana-20b3bb87/" class="emailAbout" target="_blank">
+                      <img src="images/linkedin.png" alt="" style="width: 30px; height: 30px; ">
+                    </a>
+  
+                  </div>
+                </div>
+              </div>
+              <div style="padding-bottom: px;">
+                <div class="row">
+                  <div class="col-2 col-lg-1 galaxyFold">
+                    <a href="https://orcid.org/0000-0003-2168-7254" class="emailAbout" target="_blank">
+                      <img src="images/orcid.png" alt="" style="width: 30px; height: 30px; ">
+                    </a>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+              <div style="padding-bottom: px;">
+                <div class="row">
+                  <div class="col-2 col-lg-1 galaxyFold">
+                    <a href="https://www.scopus.com/authid/detail.uri?authorId=55377569000" class="emailAbout"
+                      target="_blank">
+                      <img src="images/scopus.jpg" alt="" style="width: 30px; height: 30px; ">
+                    </a>
+  
+                  </div>
+                </div>
+              </div>
+              <div style="padding-bottom: px;">
+                <div class="row">
+                  <div class="col-2 col-lg-1 galaxyFold">
+                    <a href="https://www.researchgate.net/profile/Lalit-Borana" class="emailAbout" target="_blank">
+                      <img src="images/researchGate.png" alt="" style="width: 30px; height: 30px; ">
+                    </a>
+  
+                  </div>
+                </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+</footer>
+
+<!-- footer ends -->
+</body>
+</html>
