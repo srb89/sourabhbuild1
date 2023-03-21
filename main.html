@@ -5,219 +5,293 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
+  <title>Dr. Lalit Borana</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-    </script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&family=Lobster&family=Noto+Serif&family=Oswald&family=PT+Serif&family=Prosto+One&family=Rubik+Spray+Paint&family=Sacramento&display=swap" rel="stylesheet">
-
-  <script>
-    $(document).ready(function () {
-      $(window).scroll(function () { // check if scroll event happened
-        if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
-          $("#stick_page").css("background-color", "black"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f😎
-
-        } else {
-          $("#stick_page").css("background-color", "transparent"); // if not, change it back to transparent
-
-        }
-      });
-    });
-  </script>
 
   <link rel="stylesheet" href="css/styles.css">
+
+
 </head>
 
-<body class="overFl">
+<body class="bodyColor">
+
+
+  <div style="width: 100%;">
+    <div class="pt-4 " style="width: 100%; background-image: url(images/about2.jpg); background-repeat: no-repeat; background-size: cover;" >
+      <div class="container row hgt-phn  " style="height: 220px; ">
+        <div class="col-lg-1 col-3  text-left ">
+          <img src="images/iiti-logo.png" alt="" class="h-25 my-auto pl-5 ">
+        </div>
+        <div class="col-9  for-phones ">
+          <h2>Dr. Lalit Borana </h2>
+          <hr>
+          <h3>Civil Engineering</h3>
+          <h4>Indian Institute of Technology Indore</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <!-- navbar -->
 
-  <div class="header">
-    <div class="menu-bar " id="stick_page">
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid ">
-
-          <div class="row hamPlace">
-
-            <div class="col-1 resLogo">
-              <img src="images/Claudia Paquet.png" alt="" style="width: 35px; height: 35px ; border-radius: 10px; ">
-            </div>
-
-            <!-- <div class=""> -->
-            <h5 class="col labName" style="color:white; font-weight: 600;padding-top: 5px; ">Advanced Geomonitoring And Sensing
-              Research Lab</h5>
-            <!-- </div> -->
-
-          </div>
-          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+  <div class="header ">
+    <div class="menu-bar ">
+      <nav class="navbar navbar-expand-lg" style="background-color: black; padding-top: 5px; padding-bottom: 5px;">
+        <div class="container-fluid">
+          <button class="navbar-toggler bg-white " type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: right;">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link  mainNavHover" aria-current="page" href="main.html">Home</a>
+
+          <div class=" collapse navbar-collapse" id="navbarNavDropdown" style="background-color: black;">
+
+            <ul class="navbar-nav" style="background-color: black;margin: 0; ">
+              <a class="nav-link active px-4 one" aria-current="page" href="index.html">
+                Home
+              </a>
+
+              <a class="nav-link active text-white px-4 two  one" aria-current="page" href="main.html">About</a>
+
+              <a class="nav-link active text-white px-4 two  one" aria-current="page" href="publ1.html">Publications</a>
+
+              <a class="nav-link active text-white px-4 two  one" aria-current="page" href="projects.html">Projects</a>
+
+              <a class="nav-link text-white px-4 three one" href="postvac.html">Post Vacancies</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white px-4 five one" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Activities
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="interntnl.html">International & National</a></li>
+                  <li><a class="dropdown-item" href="consulting.html">Consulting Activities</a></li>
+                  <li><a class="dropdown-item" href="Scholarly.html">Scholarly Activities</a></li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link mainNavHover" href="index.html">About PI</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mainNavHover" href="collaborations.html">Collaborations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mainNavHover" href="facilities.html">Facilities</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mainNavHover" href="news.html">News & Updates</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mainNavHover" href="resPhd.html">Research Group</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mainNavHover" href="gallery.html">Gallery</a>
-              </li>
+
+
+              <a class="nav-link text-white px-4 six one" href="researchSup.html">Research Supervision</a>
+
+
+
             </ul>
           </div>
         </div>
       </nav>
 
+
     </div>
+
   </div>
 
 
+  <!-- navbar end -->
 
 
 
 
+  <!-- intro -->
 
-  <div class="bgImage">
-    <img src="images/soil2.jpg" alt="Snow"
-      style="width:100%; height: 450px; overflow: hidden; object-fit: cover; opacity:0.9; margin-bottom: 80px;">
-    <div class="centered">
-      <h1>Advanced Geomonitoring And Sensing Research Lab</h1>
-    </div>
-  </div>
+  <div class="container  mb-5 mt-5">
+    <div class="row">
+      <div class="col-12 col-md-4 img-wid" style="display: flex; justify-content: center;">
+        <img src="images/profImg.jpg" class=" responsivex" alt="">
 
+      </div>
+      <div class="col-12 col-md-8 text-left abouttxt">
+        <p> Lalit Borana [Hindi: ललित बोराना, Chinese : 拉利特] is currently an Associate Professor at the Department of
+          Civil Engineering, Indian Institute of Technology-Indore, INDIA. Prior to this he has worked as a Postdoctoral
+          Research Fellow at the Department of Civil and Environmental Engineering, Faculty of Construction and
+          Environment of the Hong Kong Polytechnic University (HK PolyU), Hong Kong SAR.</p>
 
-
-  <!-- additional content -->
-  <div class="border-main">
-  <div class="zigzag-cards zz-phone-1">
-    <div class="zigzag-item-1 ">
-      <img src="images\Screenshot 2023-02-20 173554.jpg" alt="">
-    </div>
-    
-    <div class="zigzag-item-2">
-      <h3 style="font-family: 'Abril Fatface', cursive;">FBG based Sensing Unit </h3>
-      At our Advanced Geomonitoring And Sensing Research Lab, we aim to bring latest and innovative technologies in the area of
-      real-time health monitoring of geotechnical infrastructures, one of which is Fiber Optic Sensing techniques. The
-      future of optical fiber sensors is promising due to its advantages of multiplexability, immunity to
-      electromagnetic interference, high accuracy, and good reliability
-    </div>
-  </div>
-</div>
-
-<div class="border-main">
-  <div class="zigzag-cards zz-phone-2">
-    <div class="zigzag-item-2">
-      <!-- <h3>Ground Improvement Using Deep Cement Mixing </h3> -->
-      The load and vibration measuring units of the integrated transducer were numerically simulated and evaluated using
-      the finite element method (ABAQUS) according to the design parameters. Figure (a) shows the simulation model of
-      the load measuring unit. Figure (b) shows the strain nephogram of the diaphragm under a uniform load of 150 kPa.
-      The central strain of the diaphragm was 0.001574 and the simulation sensitivity of the load measuring unit was
-      0.01264 nm kPa−1, which was close to the theoretical calculation value of 0.01285 nm kPa−1. Figure (c) shows the
-      simulation model of the vibration measuring unit. Figure (d) shows the strain nephogram on the surface of the
-      equal-strength cantilever beam when 1 g of acceleration was applied to the transducer. The simulation sensitivity
-      of the vibration measuring unit was found to be 121.8 pm g−1, and is slightly higher than the theoretically
-      calculated value of 114.7 pm g−1.
-    </div>
-    <div class="zigzag-item-1">
-      <img src="images/main2_.jpg" alt="">
-      <div style="margin-top: 40px; text-align: center; font-weight: 500;  ">Finite element model and strain distribution pattern of the load and vibration measuring units: (a) finite element model of the load measuring unit; (b) strain distribution pattern under a uniform load of 150 kPa; (c) finite element model of the vibration measuring unit; (d)strain distribution pattern under acceleration excitation of 1 g.
+        <p> Dr. Borana has spent a large part of the last 16 years working on variety of infrastructure and research
+          projects. The Major projects that he has been involved in includes Third Runway System for Hong Kong
+          International Airport (HKIA), The Hong Kong Boundary Crossing Facility (HKBCF), Hong Kong-Macau-Zhuhai bridge
+          Link road, Ho Man Tin MTR (rail) project in Hong Kong , Surat-Hazira port road and Ganga Expressway in India.
+          Since last few years Dr. Borana is working predominantly on soft soils, problematic soil and reclamation
+          projects. He has continued his career development by getting involved with a variety of geotechnical projects
+          in Hong Kong, India, Mainland China and Other Overseas Countries.</p>
       </div>
     </div>
   </div>
-  </div>
 
-  <div class="border-main">
-    <div class="zigzag-cards zz-phone-1">
-      <div class="zigzag-item-1">
-        <img src="images\Screenshot 2023-02-21 012820.jpg" alt="" style="height: 400px;">
+
+  <!-- grids -->
+
+  <div class="container text-center ">
+
+
+
+    <div class="row g-3">
+      <div class="col-lg-6 col-12 d-flex align-items-stretch">
+        <div class="border bg-light shadow ab">
+
+          <span class="h2 mg-lft"><b>Research Interests</b></span>
+          <br /><br />
+          <ul >
+            <li>Geomechanics</li>
+            <li>Soft soils and creep</li>
+            <li>Ground improvement techniques</li>
+            <li>Environmental geotechnology</li>
+            <li>Waste material utilization for infrastructure development</li>
+            <li>Fiber optic sensors in geotechnical engineering & condition monitoring </li>
+           
+          </ul>
+        </div>
       </div>
-  
-      <div class="zigzag-item-2">
-        The time domain response of the FLVT in the impact test by using an FFT algorithm to obtain the corresponding spectrum diAGSRam, from which the natural frequency of the FLVT was determined to be 50.7 Hz. The test results of other FBG vibration sensors indicated that the flat response region of the device was not less than 0–30 Hz, which ensured the accuracy of the measurement of low-frequency vibration signals in the soil
+      <div class="col-lg-6 col-12 d-flex align-items-stretch">
+        <div class="p-3 border bg-light shadow  ">
+
+          <div class="ab dd">
+            <span class="h2 mg-lft"><b>Education</b> </span>
+            <br /><br />
+            <ul >
+              <li>Post doc - The Hong Kong Polytechnic University, Hong Kong.</li>
+              <li>Ph.D - Geotechnical Engineering, The Hong Kong Polytechnic University, Hong Kong.</li>
+              <li>M.Tech - Geotechnical Engineering, Indian Institute of Technology Guwahati, India. </li>
+              <li>B.E - Civil Engineering, Visvesvaraya Technological University, Belgaum,India. </li>
+            </ul>
+
+          </div>
+
+        </div>
       </div>
+      <div class="col-lg-6 col-12">
+        <div class="p-3 border bg-light shadow ab">
+          <div class="ab ">
 
+            <span class="h2 mg-lft"><b>Professional Experience</b></span>
+            <br><br>
+            <div >
+              <ul>
+                <li>Nov 2022-Till Date: Associate Professor, Indian Institute of Technology Indore, India</li>
+                <li>Oct 2017-Nov 2022: Assistant Professor, Indian Institute of Technology Indore, India</li>
+                <li>
+                  Dec 2016-Jul 2017: Post Doc Fellow, The Hong Kong Polytechnic University</li>
+                <li>May 2015-Dec 2016: Geotechnical Engineer , Onlygeotechnics Limited</li>
+                <li>
+                  Jan 2013-May 2015: Research Associate / Research Assistant, The Hong Kong
+                  Polytechnic University </li>
+                <li>
+
+                  Aug 2008-Dec 2009: Assistant Engineer, Consulting Engineering Services (India) Pvt
+                  Ltd., New Delhi</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-6 col-12 d-flex align-items-stretch ">
+        <div class="   border bg-light shadow">
+          <div class="ab">
+
+            <span class="h2  mg-lft  ;"><b>Professional Memberships </b></span>
+            <br /><br />
+            <ul style="text-align:justify;">
+              <li>ISSMGE - IGS (2022 to 2025)</li>
+              <li>Indian Geotechnical Society (LM-4549)- Lifetime Member</li>
+              <li>Member of the Institutions of Engineers India (M-1685591)- Lifetime Member</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div class="col-12 " style="margin-top: 20px; padding: 0%;">
+      <div class=" border bg-light shadow ">
+        <div class="txt-cent ">
+
+          <span class="h2 mg-lft "><b>Achievements</b></span>
+
+        </div>
+        <div class="ab" style="text-align:justify;">
+
+          <dl class="row">
+            <dt class="col-sm-3">05/2022</dt>
+            <dd class="col-sm-9">Outstanding Reviewer for 2021" by the Journal of performance of
+              Constructed Facilities , American Society of Civil Engineers (ASCE)</dd>
+          </dl>
+          <dl class="row">
+            <dt class="col-sm-3">06/2021-09/2022</dt>
+            <dd class="col-sm-9">Lead Guest Editor for Special issue on Frontiers for Sustainable and
+              Green Approaches in Geotechnical and Geoenvironmental Engineering
+              in the journal of Frontiers in Built Environment</dd>
+          </dl>
+          <dl class="row">
+            <dt class="col-sm-3">12/2021</dt>
+            <dd class="col-sm-9">Editorial Board member for the International Journal of Geosynthetics
+              and Ground Engineering, Springer Nature</dd>
+          </dl>
+          
+          <dl class="row">
+            <dt class="col-sm-3">03/2021</dt>
+            <dd class="col-sm-9">Editor’s Choice 2020 paper- International Journal of Geosynthetics
+              and Ground Engineering, Springer Nature</dd>
+          </dl>
+          <dl class="row">
+            <dt class="col-sm-3">08/2020 </dt>
+            <dd class="col-sm-9">Granted Young Civil and Environmental Engineer Award 2020, Hong
+              Kong (Aug 2020 at PolyU, HK)</dd>
+          </dl>
+          <dl class="row">
+            <dt class="col-sm-3">07/2019 </dt>
+            <dd class="col-sm-9">Visiting Fellow at Wuhan University of technology</dd>
+          </dl>
+          <dl class="row">
+            <dt class="col-sm-3">06/2019 </dt>
+            <dd class="col-sm-9">Visiting Fellow at the Hong Kong Polytechnic University, Hong Kong.
+            </dd>
+          </dl>
+          <dl class="row">
+            <dt class="col-sm-3">2017-2019 </dt>
+            <dd class="col-sm-9">Guest Editor for International Journal of Distributed sensor network,
+              Sage Publishers, UK.
+            </dd>
+          </dl>
+          <dl class="row">
+            <dt class="col-sm-3">03/2018 </dt>
+            <dd class="col-sm-9">Best Reviewer Award, Computer and Geotechnics, Elsevier,
+              Netherlands
+            </dd>
+          </dl>
+          <dl class="row">
+            <dt class="col-sm-3">12/2016 -07/2017 </dt>
+            <dd class="col-sm-9"> Post Doctoral Fellowship award State China Key 973 Project at The
+              Hong Kong Polytechnic University, Hong Kong.
+            </dd>
+          </dl>
+          <dl class="row">
+            <dt class="col-sm-3">05/2015-12/2017 </dt>
+            <dd class="col-sm-9"> Technical Advisor at the Civil and Environmental Engineering
+              Department, The Hong Kong Polytechnic University, Hong Kong
+            </dd>
+          </dl>
+          <dl class="row">
+            <dt class="col-sm-3">01/2010-12/2014 </dt>
+            <dd class="col-sm-9"> PhD Research Fellowship, UGC, Hong Kong.</dd>
+          </dl>
+          <dl class="row">
+            <dt class="col-sm-3">07/2006-05/2008 </dt>
+            <dd class="col-sm-9"> GATE (Graduate Aptitude Test in Engineering) in Civil Engg.</dd>
+          </dl>
+        </div>
+
+      </div>
     </div>
 
-
-  <div class="border-main">
-  <div class="zigzag-cards zz-phone-1">
-
-    <div class="zigzag-item-2">
-      <h3 style="font-family: 'Abril Fatface', cursive;">EVPS Based Modelling </h3>
-      The applicability of the Elasto-visco plastic Model considering the Swelling (EVPS Model) is further expanded to
-      assess the free swelling behaviour of the expansive soil. Different wetting-drying cycles were performed in
-      expansive soil in presence of different quantities of fly ash. The variations of time-dependent swelling
-      coefficients of the fly ash blended mixtures were investigated. Further, the strain behaviour predicted from EVPS
-      Model is compared with the experimental data.
-    </div>
-
-    <div class="zigzag-item-1">
-      <img src="images\Untitled design.png" alt="">
-    </div>
   </div>
-</div>
-
-<div class="border-main">
-  <div class="zigzag-cards zz-phone-1">
-
-    <div class="zigzag-item-1">
-      <img src="images\Screenshot 2023-02-21 013035.jpg" alt="">
-    </div>
-
-    <div class="zigzag-item-2">
-      <!-- <h3>EVPS Based Modelling </h3> -->
-      The wavelength 873 and 1,432 cm−1 denote the stretching vibration of O–C–O bonds in calcium carbonate, 777 cm−1 indicate Si–O stretching vibrations of quartz, 1,629 cm−1 specify the presence of C=O carboxylate group of organic matter, 714 cm−1 are due to the vibrations of AlIV–O–Si and AlVI–O–Si, and 913 cm−1 denotes the stretch and deformation of OH in Al–O–H. The sharp band in the range 1,000–1,120 cm−1 is due to the Si–O stretching vibration. After the addition of the FA, there are small shifts of each bond’s wavelength and the transmittance of O–H bonds in clay minerals is found to increase. There is the formation of a dense matrix between the soil components induced by the addition of FA, and this leads to a reduction in the flexibility of the O–H bond. At the same FA content, the duration of loading also impacts the transmittance at a particular wavelength.
-    </div>
-
-  </div>
-</div>
-
-
-
-
-  <div class="border-main">
-  <div class="zigzag-cards zz-phone-2">
-
-    <div class="zigzag-item-2">
-      <h3 style="font-family: 'Abril Fatface', cursive;">Ground Improvement Using Deep Cement Mixing </h3>
-      In AGSR lab, deep cement mixing (DCM) is one of the effective techniques focussed for ground improvement of soft
-      soils along with other conventional techniques like using chemical and biological additives. Physical modelling
-      and numerical modelling are developed to long-term stress-strain behaviour, strength gain, settlement behaviour
-      and many more.
-    </div>
-
-    <div class="zigzag-item-1">
-      <img src="images\Screenshot 2023-02-20 174251.jpg" alt="">
-    </div>
-  </div>
-  </div>
-
-
 
 
 <!-- footer -->
@@ -227,18 +301,18 @@
 
       <div class="row footerDiv" >
 
-          <div class="col-12 col-md-3" style="margin-bottom: 30px;">
-              <h4 style="color:#FAEAB1; padding-bottom: 4px;">Dr. Lalit Borana</h4>
-              <div>
-                <p style="margin-bottom: 3px; color: white; font-weight: 400;">Associate Professor</p>
-                <p style="margin-bottom: 3px; color: white; font-weight: 400;">Department of Civil Engineering,</p>
-                <p style="margin-bottom: 3px; color: white; font-weight: 400;">Indian Institute of Technology Indore</p>
-                <p style="margin-bottom: 3px; color: white; font-weight: 400;">Pod 1D-407, Chromium Building,</p>
-                <p style="margin-bottom: 3px; color: white; font-weight: 400;">Khandwa Rd, Simrol, Madhya Pradesh,</p>
-                <p style="margin-bottom: 3px; padding-bottom: 3px; color: white; font-weight: 400;">Simrol-453552 -(INDIA)</p>
-                <span style="font-weight: bold; color: #b9b9b6;" >To Apply for Phd : <a href="https://www.google.com/url?q=https%3A%2F%2Facademic.iiti.ac.in%2Fphdadvt.php&sa=D&sntz=1&usg=AOvVaw0eBuPcawZ0rA-wD3HsG8r9  " class="clickHere">Click here</a></span>
+        <div class="col-12 col-md-3" style="margin-bottom: 30px;">
+          <h4 style="color:#FAEAB1; padding-bottom: 4px;">Dr. Lalit Borana</h4>
+          <div>
+            <p style="margin-bottom: 3px; color: white; font-weight: 400;">Associate Professor</p>
+            <p style="margin-bottom: 3px; color: white; font-weight: 400;">Department of Civil Engineering,</p>
+            <p style="margin-bottom: 3px; color: white; font-weight: 400;">Indian Institute of Technology Indore</p>
+            <p style="margin-bottom: 3px; color: white; font-weight: 400;">Pod 1D-407, Chromium Building,</p>
+            <p style="margin-bottom: 3px; color: white; font-weight: 400;">Khandwa Rd, Simrol, Madhya Pradesh,</p>
+            <p style="margin-bottom: 3px; padding-bottom: 3px; color: white; font-weight: 400;">453552 -(INDIA)</p>
+            <span style="font-weight: bold; color: #b9b9b6;" >To Apply for Phd : <a href="https://www.google.com/url?q=https%3A%2F%2Facademic.iiti.ac.in%2Fphdadvt.php&sa=D&sntz=1&usg=AOvVaw0eBuPcawZ0rA-wD3HsG8r9  " class="clickHere">Click here</a></span>
 
-            </div>
+        </div>
           </div>
           <div class="col-md-7 col-12">
 
@@ -334,8 +408,6 @@
 </footer>
 
 <!-- footer ends -->
-
-
 </body>
 
 </html>
