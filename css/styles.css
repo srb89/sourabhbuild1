@@ -433,6 +433,15 @@
     text-align: justify;
    
 }
+.large_view{
+    font-size:medium;
+}
+
+@media (min-width : 1900px){
+    .large_view{
+        font-size: 30px;
+    }
+}
 
 @media (max-width: 867px){
 .zz-phone-1{
@@ -473,8 +482,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    text-align: left
-    ;
+    text-align: left;
     padding: 100px;
     gap: 2rem;
 
@@ -483,7 +491,15 @@
     background-color: #e7e7e7;
     display: flex;
     flex-direction: column;
-        gap: 3rem;
-        border-radius: 10px;
-        padding: 40px;
+    gap: 3rem;
+    border-radius: 10px;
+    padding: 40px;
 }
+.link-a{
+    color: black;
+}
+
+.link-a:hover{
+    color:blue;
+}
+
