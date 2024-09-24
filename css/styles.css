@@ -421,7 +421,7 @@
     
 }
 .zigzag-item-1 img{
-    width: 40vw;
+    width:30vw;
     height: auto;
     /* border: solid 1px ; */
     border-radius:  20px 20px 20px;
@@ -432,6 +432,15 @@
     padding: 2%;
     text-align: justify;
    
+}
+.large_view{
+    font-size:medium;
+}
+
+@media (min-width : 1900px){
+    .large_view{
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 867px){
@@ -467,3 +476,30 @@
 .research_phd:hover{
     color: rgb(112, 112, 112);
 }
+.news-main{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 100px;
+    gap: 2rem;
+
+}
+.news-main ul{
+    background-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border-radius: 10px;
+    padding: 40px;
+}
+.link-a{
+    color: black;
+}
+
+.link-a:hover{
+    color:blue;
+}
+
